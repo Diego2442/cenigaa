@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!--Iconos-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/Slider.css">
+        <link rel="stylesheet" href="assets/css/modal-boton.css">
+        <title>Centro de Investigación en Ciencias y Recursos GeoAgroAmbientales</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="#" class="nav__logo">
+                        <i class="ri-code-s-slash-line"></i> Cenigga
+                    </a>
+    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line nav__toggle-menu"></i>
+                        <i class="ri-close-line nav__toggle-close"></i>
+                    </div>
+                </div>
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="nosotros.html" class="nav__link">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__link">Noticias y Eventos</a>
+                        </li>
+                        <!--=============== DROPDOWN 1 ===============-->
+                        <li class="dropdown__item">                      
+                            <div class="nav__link dropdown__button">
+                                Staff <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Jóvenes Investigadores</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Investigadores</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Pasantes</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!--=============== DROPDOWN 2 ===============-->
+                        <li>
+                            <a href="#" class="nav__link">Ctel</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav__link">Academy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__link">Spin Off</a>
+                        </li>
+
+                        <!--=============== DROPDOWN 3 ===============-->
+                        <li>                        
+                            <a href="#" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--=============== SLIDER ===============-->
+
+        <!-- partial:index.partial.html -->
+        <div id="app" class="wrapper" v-cloak v-bind:class="{'is-previous': isPreviousSlide, 'first-load': isFirstLoad}">
+            <div class="slide-wrapper" 
+                v-for="(slide, index) in slides" 
+                v-bind:class="{ active: index === currentSlide }"
+                v-bind:style="{ 'z-index': (slides.length - index), 'background-image': 'url(' + slide.bgImg + ')' }">
+                <div class="slide-inner">
+                    <div class="slide-bg-text">
+                        <p>{{ slide.headlineFirstLine }}</p>
+                        <p>{{ slide.headlineSecondLine }}</p>
+                    </div>
+                    <div class="slide-rect-filter">
+                        <div class="slide-rect" v-bind:style="{'border-image-source': 'url(' + slide.rectImg + ')'}"></div>
+                    </div>
+                    <div class="slide-content">
+                        <h1 class="slide-content-text"><p>{{ slide.headlineFirstLine }}</p><p>{{ slide.headlineSecondLine }}</p></h1><a class="slide-content-cta">Call To Action</a></div>
+                    <h2 class="slide-side-text"><span>{{ slide.sublineFirstLine }} / </span><span>{{ slide.sublineSecondLine }}</span></h2></div>
+            </div>
+        <div class="controls-container">
+            <button class="controls-button" 
+                    v-for="(slide, index) in slides"
+                    v-bind:class="{ active: index === currentSlide }"
+                    v-on:click="updateSlide(index)">{{ slide.headlineFirstLine }} {{ slide.headlineSecondLine }}</button>
+        </div>
+        <div class="pagination-container">
+            <span class="pagination-item"
+                v-for="(slide, index) in slides"
+                v-bind:class="{ active: index === currentSlide }"
+                v-on:click="updateSlide(index)"></span>
+        </div>
+        </div>
+        <!-- partial -->
+        
+        <div>
+            
+        <!----------------------- Modales para implementar ---------------->
+        <h1>Implementación de Modales Ejemplo</h1>
+        
+        <div class="container-fluid">
+            <ul>
+                 <li><a href="#modal1" class="boton3">DESLIZAR</a></li>
+            </ul>
+        </div>
+        <div id="modal1" class="modalmask">
+            <div class="modalbox movedown">
+                <a href="#close" title="Close" class="close">x</a>
+                <hr>
+                <h2>Contenido</h2>
+                <p>La ventana modal aparece por arriba y se desliza hasta su posición. Un efecto simple pero elegante.</p>
+                <p>Aquí puedes incluir cualquier cosa como vídeos, mapas, formularios...</p>
+                <hr>
+            </div>
+        </div>
+
+
+        <!--------Fin de modales de ejemplo--------->   
+        </div>
+
+
+        <!--=============== FOOTER ===============-->
+        <footer class="pie-pagina">
+
+            <div class="container-fluid">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.03749923756772!2d-75.26541302559748!3d2.93071975738989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b74117f5cbb31%3A0x3888eaf55f8a881d!2sCorporaci%C3%B3n%20Universitaria%20del%20Huila%20-%20Sede%20Prado%20Alto!5e0!3m2!1ses-419!2sco!4v1686077789169!5m2!1ses-419!2sco" width="90%" height="450" style="border:0; margin-top: 2%; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" name="Cenigaa Sede Corhuila Prado Alto"></iframe>
+            </div>
+            
+
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="./assets/img/logo-cenigaa.png" alt="Logo de SLee Dw">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small><b>Copyright</b> &copy; 2023 <b>CENIGAA</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+        <!--=============== JS FILES ===============-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/slider.js"></script>
+
+        <!-- Script adicional -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js'></script>
+        <script  src="slider-animation-effect/dist/script.js"></script>
+
+    </body>
+</html>

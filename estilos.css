@@ -941,3 +941,9 @@ a:hover{
     color: #0DF053;
     background: #FFF;
 }
+
+
+.fondo-cenigaa{
+  background-image: linear-gradient(to right, rgb(30, 63, 196), transparent, rgb(36, 186, 53)), url("./assets/img/contacto.jpg");
+  width: 100%;
+}

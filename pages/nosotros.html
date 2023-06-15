@@ -6,39 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="../assets/css/about.css"> -->
-     <link rel="stylesheet" href="../assets/css/nosotros.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" /> -->
+
+    <link rel="stylesheet" href="/assets/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../assets/css/nosotros.css">
     <title>Sobre Nosotros</title>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="/index.html">
-            <img src="/assets/img/logo-cenigaa.png" alt="" style="width: 70px; height: 50px;">
+    <header class="site-navbar" role="banner">
+
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <div class="col-11 col-xl-2">
+          <h1 class="mb-0 site-logo">
+          <a href="index.html" class="text-black-50 mb-0">
+            Cenigaa
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/index.html">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personal</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="jovenesInvestigadores.html">Jóvenes Investigadores</a>
-                  <a class="dropdown-item" href="investigadores.html">Investigadores</a>
-                  <a class="dropdown-item" href="pasantes.html">Pasantes</a>
-                </div>
-              </li>
-            </ul>
+        </h1>
         </div>
+        <div class="col-12 col-md-10 d-none d-xl-block">
+          <nav class="site-navigation position-relative text-right" role="navigation">
+
+            <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+              <li><a href="/index.html"><span>Inicio</span></a></li>
+              <li class="has-children">
+                <a href="about.html"><span>Personal</span></a>
+                <ul class="dropdown arrow-top">
+                  <li><a href="/pages/investigadores.html">Investigadores</a></li>
+                  <li><a href="/pages/jovenesInvestigadores.html">Jóvenes Investigadores</a></li>
+                  <li><a href="/pages/pasantes.html">Pasantes</a></li>
+                </ul>
+              </li>
+              <li><a href="listings.html"><span>Proyectos</span></a></li>
+              <li><a href="about.html"><span>CteI</span></a></li>
+              <li><a href="blog.html"><span>Academics</span></a></li>
+              <li><a href="contact.html"><span>Servicios</span></a></li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+
       </div>
-    </nav>
+    </div>
+    
+    </header>
 
 
     <main id="main">
@@ -168,5 +190,11 @@
     <!-- Template Main JS File -->
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/script.js"></script>
+
+    <script src="/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/jquery.sticky.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>

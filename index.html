@@ -7,49 +7,64 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!--Iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <title>Centro de Investigación en Ciencias y Recursos GeoAgroAmbientales - Cenigaa</title>
+
+    <link rel="stylesheet" href="/assets/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="./estilos.css">
+    <title>Centro de Investigación en Ciencias y Recursos GeoAgroAmbientales - Cenigaa</title>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/img/logo-cenigaa.png" alt="" style="width: 70px; height: 50px;">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personal</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="./pages/jovenesInvestigadores.html">Jóvenes Investigadores</a>
-                  <a class="dropdown-item" href="./pages/investigadores.html">Investigadores</a>
-                  <a class="dropdown-item" href="./pages/pasantes.html">Pasantes</a>
-                </div>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Proyectos</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">CteI</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Academics</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Servicios</a>
-              </li>
-            </ul>
-        </div>
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
       </div>
-    </nav>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+  
+  <header class="site-navbar" role="banner">
+
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <div class="col-11 col-xl-2">
+          <h1 class="mb-0 site-logo"><a href="index.html" class="text-white mb-0">Brand</a></h1>
+        </div>
+        <div class="col-12 col-md-10 d-none d-xl-block">
+          <nav class="site-navigation position-relative text-right" role="navigation">
+
+            <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+              <li><a href="/index.html"><span>Inicio</span></a></li>
+              <li class="has-children">
+                <a href="#"><span>Personal</span></a>
+                <ul class="dropdown arrow-top">
+                  <li><a href="/pages/investigadores.html">Investigadores</a></li>
+                  <li><a href="/pages/jovenesInvestigadores.html">Jóvenes Investigadores</a></li>
+                  <li><a href="/pages/pasantes.html">Pasantes</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><span>Proyectos</span></a></li>
+              <li><a href="#"><span>CteI</span></a></li>
+              <li><a href="#"><span>Academics</span></a></li>
+              <li><a href="#"><span>Servicios</span></a></li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+
+      </div>
+    </div>
+    
+  </header>
       
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -198,34 +213,6 @@
       </a>
     </div>
 
-    <!-- <div class="card-services">
-      <h1 class="heading">Nuestros Servicios</h1>
-      <div class="box-container">
-        <div class="box">
-          <img src="/assets/svg/Gpro.svg" alt="Logo Gpro">
-          <h3>GPRO</h3>
-          <p>
-            Complementamos el conocimiento con diferentes herramientas para garantizar una experiencia no solo en servicio,
-            sino en el producto. Nuestro equipo cuenta con los estudios necesarios para obtener resultados de alta calidad.
-          </p>
-          <a href="#" class="btn"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#" class="btn"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-
-        <div class="box">
-          <img src="/assets/svg/AgroBussines.svg" alt="Logo AgroBussines">
-          <h3>AGRO BUSSINESS</h3>
-          <p>
-            Agrobussines 4.0 es una plataforma tecnológica que mejora la posición del agricultor en la cadena de valor.
-            Busca implementar mecanismos de fortalecimiento, contro y trazabilidad a los factoras productivos agrícolas, acompañado de las TIcs
-            como garante del seguimiento, idoneidad y sostenibilidad de la oferta comercial nacional e internacional.
-          </p>
-          <a href="#" class="btn"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#" class="btn"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-      </div>
-    </div> -->
-
     <footer class="pie-pagina">
         <div class="group-1">
           <div class="box">
@@ -301,5 +288,10 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/jquery.sticky.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

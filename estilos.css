@@ -940,8 +940,14 @@ a:hover{
 }
 
 
-.fondo-cenigaa{
+/* .fondo-cenigaa{
   background-image: linear-gradient(to right, rgb(30, 63, 196), transparent, rgb(36, 186, 53)), url("./assets/img/contacto.jpg");
   width: 100%;
-}
+} */
+
+
+.fondo-cenigaa{
+  background-image: linear-gradient(to right, rgb(10, 10, 11),rgb(50, 49, 61),rgb(10, 10, 11)), url("../img/cenigaa_blanconegro.jfif");
+  width: 100%;
+  }
 

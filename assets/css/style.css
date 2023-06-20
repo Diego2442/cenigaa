@@ -2507,3 +2507,7 @@ section {
 background-image: linear-gradient(to right, rgb(10, 10, 11),rgb(50, 49, 61),rgb(10, 10, 11)), url("../img/cenigaa_blanconegro.jfif");
 width: 100%;
 }
+
+/* .fondo-gpro{
+  background-image: linear-gradient(to right, rgb(187, 187, 199),transparent,rgb(146, 174, 152)), url("../img/gpro-fondo.jpeg");
+} */

@@ -47,7 +47,7 @@ a{
     color: #fff;
 }
 
-/*Navbar With Hover - Bootstrap*/
+/* /*Navbar With Hover - Bootstrap*/
 .site-navbar {
     margin-bottom: 0px;
     z-index: 1999;
@@ -402,7 +402,7 @@ a{
 .site-mobile-menu .site-nav-wrap[data-class="social"] > li:first-child a {
     padding-left: 15px !important; 
 }
-
+ */
 
 /* Header */
 header{

@@ -394,7 +394,8 @@ a{
 .home{
     width: 100%;
     min-height: 440px;
-    background: #000;
+    background: url("https://cdn.pixabay.com/photo/2023/05/19/18/02/ai-generated-8005087_1280.png") no-repeat;
+    background-size: cover;
     display: grid;
     justify-content: center;
     align-items: center;

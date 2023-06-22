@@ -2586,10 +2586,10 @@ width: 100%;
 
 .logo-name {
   color: #fff;
-  font-size: 20px;
-  letter-spacing: 12px;
+  font-size: 90%;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  margin-left: 20px;
+  margin-left: 10px;
   font-weight: bolder;
 }
 

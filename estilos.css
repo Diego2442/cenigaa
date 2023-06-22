@@ -887,7 +887,6 @@ a:hover{
 }
 
 .footer-links{
-    margin-left: -40px;
     list-style: none;
 }
 
@@ -931,17 +930,17 @@ a:hover{
 }
 
 @media screen and (max-width: 800px){
-    .pie-pagina .group-1{
-        width: 90%;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 30px;
-        margin-top: -9px;
-        padding: 35px 0px;
-    }
+  .pie-pagina .group-1{
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: -9px;
+    padding: 35px 0px;
+  }
 
-    .footer-links{
-        margin-left: -40px;
-    }
+  .footer-links{
+    margin-left: -40px;
+  }
 }
   /* Estilos para el loader del index*/
 

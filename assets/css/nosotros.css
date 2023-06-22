@@ -628,7 +628,6 @@ section {
 .pie-pagina{
   width: 100%;
   background-color: #0d2033;
-  /* background-color: #FFF; */
 }
 .pie-pagina .grupo-1{
   width: 100%;
@@ -686,7 +685,7 @@ section {
 }
 
 .footer-links{
-    margin-left: -40px;
+  margin-left: -40px;
   list-style: none;
 }
 

@@ -398,7 +398,7 @@
 }
 
 .img-1{
-    background: url("./assets/img/equipoCenigaa.jpg");
+    background: url("./assets/img/equipoCenigaa.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -820,7 +820,6 @@ a:hover{
 
 /*<!======Footer======!>*/
 .pie-pagina{
-    /* margin-top: 50px; */
     width: 100%;
     background-color: #0d2033;
 }
@@ -902,6 +901,35 @@ a:hover{
     text-decoration: none;
 }
 
+/*<!======Whatsapp Button======!>*/
+.btn-wsp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #0DF053;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+}
+
+.btn-wsp:hover{
+  text-decoration: none;
+  color: #0DF053;
+  background: #FFF;
+}
+
+
+.fondo-cenigaa{
+  background-image: linear-gradient(to right, rgb(10, 10, 11),rgb(50, 49, 61),rgb(10, 10, 11)), url("../img/cenigaa_blanconegro.jfif");
+  width: 100%;
+}
+
 @media screen and (max-width: 800px){
     .pie-pagina .group-1{
         width: 90%;
@@ -915,44 +943,6 @@ a:hover{
         margin-left: -40px;
     }
 }
-
-/*<!======Whatsapp Button======!>*/
-.btn-wsp{
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 30px;
-    right: 30px;
-    background: #0DF053;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-    z-index: 100;
-}
-
-.btn-wsp:hover{
-    text-decoration: none;
-    color: #0DF053;
-    background: #FFF;
-}
-
-
-/* .fondo-cenigaa{
-  background-image: linear-gradient(to right, rgb(30, 63, 196), transparent, rgb(36, 186, 53)), url("./assets/img/contacto.jpg");
-  width: 100%;
-} */
-
-
-.fondo-cenigaa{
-  background-image: linear-gradient(to right, rgb(10, 10, 11),rgb(50, 49, 61),rgb(10, 10, 11)), url("../img/cenigaa_blanconegro.jfif");
-  width: 100%;
-  }
-
-
-
   /* Estilos para el loader del index*/
 
   @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
@@ -961,22 +951,6 @@ a:hover{
     margin: 0;
     box-sizing: border-box;
   }
-  
-  /* body {
-    font-family: "Michroma", sans-serif;
-    height: 100vh;
-  } */
-  
-  /* .container {
-    background-color: black;
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  } */
   
   .loading-page {
     position: absolute;

@@ -671,6 +671,7 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  text-align: center;
 }
 
 .services .title a {
@@ -729,6 +730,10 @@ section {
 
 .services .icon-box-blue:hover {
   border-color: #2282ff;
+}
+
+.services .box-content{
+  text-align: left;
 }
 
 /*--------------------------------------------------------------

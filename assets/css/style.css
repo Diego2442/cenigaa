@@ -519,3 +519,44 @@ width: 100%;
 }
 
 /*fin del css del loader */
+
+
+/* Estils cards services */
+
+.bg-primary{
+  background: linear-gradient(to right, rgb(30, 30, 152), rgb(24, 24, 78));
+}
+
+.bg-success{
+  background: linear-gradient(to right, rgb(33, 156, 33), rgb(28, 117, 28));
+}
+
+.bg-brown{
+  background: linear-gradient(to right, rgb(151, 86, 86), rgb(125, 49, 49));
+}
+
+.bg-warning{
+  background: linear-gradient(to right, rgb(147, 147, 74), rgb(131, 131, 33));
+}
+
+.bg-light{
+  background: linear-gradient(to right, rgb(244, 244, 241), rgb(199, 199, 191));
+}
+
+.bg-dark{
+  background: linear-gradient(to right, rgb(106, 106, 101), rgb(44, 44, 41));
+}
+
+/* .fondo-tarjetas{
+  background: linear-gradient(to right, rgb(72, 212, 102), rgb(132, 184, 156), rgb(48, 48, 201));
+} */
+
+.cards-img{
+  cursor: pointer;
+  transition: 1s;
+}
+
+.cards-img:hover{
+  transform: scale(1.1);
+  transition: 1.6s;
+}

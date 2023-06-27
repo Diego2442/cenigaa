@@ -359,6 +359,10 @@
   section {
     padding: 60px 0;
   }
+
+  #contador{
+    margin-right: 15px;
+  }
   
   .why-us .container {
     box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);

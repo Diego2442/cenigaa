@@ -699,6 +699,33 @@ a{
     text-decoration: none;
 }
 
+@media screen and (max-width: 700px){
+  .pie-pagina .group-1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pie-pagina .group-1 .red-social{
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .pie-pagina .group-1{
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin: 0px 10px;
+    padding: 35px 0px;
+  }
+
+  .red-social{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+}
+
 /*<!======Whatsapp Button======!>*/
 .btn-wsp{
   position: fixed;

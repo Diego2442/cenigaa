@@ -614,7 +614,6 @@ a{
 
 /*<!======Footer======!>*/
 .pie-pagina{
-    /* margin-top: 50px; */
     width: 100%;
     background-color: #0d2033;
 }
@@ -696,6 +695,47 @@ a{
     text-decoration: none;
 }
 
+@media screen and (max-width:700px){
+  .pie-pagina .group-1{
+   display: flex;
+   flex-direction: column;
+  }
+
+  .pie-pagina .group-1 .red-social{
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 800px){
+    .pie-pagina .group-1{
+      width: 90%;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      padding: 35px 0px;
+    }
+
+    .red-social{
+      display: flex;
+      flex-direction: column;
+      grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .pie-pagina .group-1{
+      width: 90%;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      padding: 35px 0px;
+    }
+
+    .red-social{
+      display: flex;
+      flex-direction: column;
+      grid-gap: 10px;
+    }
+}
+
 /*<!======Whatsapp Button======!>*/
 .btn-wsp{
   position: fixed;
@@ -723,29 +763,4 @@ a{
 .fondo-cenigaa{
 background-image: linear-gradient(to right, rgb(10, 10, 11),rgb(50, 49, 61),rgb(10, 10, 11)), url("../img/cenigaa_blanconegro.jfif");
 width: 100%;
-}
-
-@media screen and (max-width: 700px){
-    /* .pie-pagina .group-1 .red-social a{
-        display: inline-block;
-        margin: 10px 25px;
-    } */
-
-    .footer-links{
-        margin-left: -40px;
-    }
-}
-
-@media screen and (max-width: 800px){
-    .pie-pagina .group-1{
-        width: 90%;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 30px;
-        margin-top: -9px;
-        padding: 35px 0px;
-    }
-
-    .footer-links{
-        margin-left: -40px;
-    }
 }

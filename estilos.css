@@ -39,7 +39,7 @@
 }
 .site-navbar .site-navigation .site-menu > li > a {
   padding: 10px 0px;
-  color: #fff;
+  color: #FFF;
   font-size: 16px;
   text-decoration: none !important;
 }
@@ -380,12 +380,6 @@
     font-size: 18px;
     line-height: 1.9;
   }
-  
-  /* @media(max-width: 700px){
-    .carousel-indicators{
-      bottom: %;
-    }
-  } */
 
 /*<!======About Us======!>*/
 .grid{
@@ -707,12 +701,6 @@ a:hover{
     margin: 10px;
 }
 
-/* @media (max-width: 700px){
-  .container-card{
-    width: 100%;
-  }
-} */
-
 @media (max-width: 900px){
     .product .popup-card{
       flex-direction: column;
@@ -818,87 +806,113 @@ a:hover{
     transform: translateY(-7px);
 }
 
-/*<!======Footer======!>*/
+/*<!=======FOOTER=======>*/
 .pie-pagina{
-    width: 100%;
-    background-color: #0d2033;
+  width: 100%;
+  background-color: #0d2033;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #FFF;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+  color: #FFF;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #0a1a2a;
+  margin-right: 10px;
+  background-color: #FFF;
+  text-align: center;
+  transition: all 300ms ease;
+  border-radius: 5px;
 }
 
-.pie-pagina .group-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
+.pie-pagina .grupo-1 .red-social a:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-.pie-pagina .group-1 .box figure{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.pie-pagina .grupo-2{
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
 }
-
-.pie-pagina .group-1 .box figure img{
-    width: 250px;
-}
-
-.pie-pagina .group-1 .box h2{
-    color: #FFF;
-    margin-bottom: 25px;
-    font-size: 20px;
-}
-
-.pie-pagina .group-1 .box p{
-    color: #FFF;
-    margin-bottom: 10px;
-}
-
-.pie-pagina .group-1 .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: #0A1A2A;
-    margin-right: 10px;
-    background-color: #FFF;
-    text-align: center;
-    transition: all 300ms ease;
-    border-radius: 5px;
-}
-
-.pie-pagina .group-1 .red-social a:hover{
-    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
-}
-
-.pie-pagina .group-2{
-    background-color: #0A1A2A;
-    padding: 15px 10px;
-    text-align: center;
-    color: #FFF;
-}
-
-.pie-pagina .group-2 small{
-    font-size: 15px;
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
 }
 
 .footer-links{
-    margin-left: -40px;
-    list-style: none;
+  list-style: none;
 }
 
 .footer-links li{
-    padding: 5px 0;
-    display: block;
+  padding: 5px 0;
+  display: block;
 }
 
 .footer-links a{
-    color: #FFF;
-    text-decoration: none;
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media screen and (max-width:700px){
+  .pie-pagina .grupo-1{
+   display: flex;
+   flex-direction: column;
+  }
+
+  .pie-pagina .grupo-1 .red-social{
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width:800px){
+  .pie-pagina .grupo-1{
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:10px;
+    padding: 35px 0px;
+  }
+}
+
+@media screen and (max-width:900px){
+  .pie-pagina .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:20px;
+    padding: 35px 0px;
+  }
+
+  .red-social{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
 }
 
 /*<!======Whatsapp Button======!>*/
@@ -930,19 +944,6 @@ a:hover{
   width: 100%;
 }
 
-@media screen and (max-width: 800px){
-    .pie-pagina .group-1{
-        width: 90%;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 30px;
-        margin-top: -9px;
-        padding: 35px 0px;
-    }
-
-    .footer-links{
-        margin-left: -40px;
-    }
-}
   /* Estilos para el loader del index*/
 
   @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");

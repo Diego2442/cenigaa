@@ -729,10 +729,10 @@ width: 100%;
 }
 
 @media screen and (max-width: 700px){
-    /* .pie-pagina .group-1 .red-social a{
+    .pie-pagina .group-1 .red-social a{
         display: inline-block;
         margin: 10px 25px;
-    } */
+    } 
 
     .footer-links{
         margin-left: -40px;

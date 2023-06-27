@@ -708,6 +708,21 @@ section {
   }
 }
 
+@media screen and (max-width:900px){
+  .pie-pagina .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:20px;
+    padding: 35px 0px;
+  }
+
+  .red-social{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+}
+
 /*<!======Whatsapp Button======!>*/
 .btn-wsp{
   position: fixed;

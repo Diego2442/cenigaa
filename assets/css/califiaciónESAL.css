@@ -353,110 +353,262 @@
 .site-mobile-menu .site-nav-wrap[data-class="social"] > li:first-child a {
   padding-left: 15px !important; 
 }
+
+/*--------------------------------------------------------------
+# Our Services
+--------------------------------------------------------------*/
+.services {
+  padding-bottom: 20px;
+}
+
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  background: #fff;
+  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.services .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 17px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.services .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.services .title a {
+  color: #111;
+}
+
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.services .icon-box-pink .icon {
+  background: #fceef3;
+}
+
+.services .icon-box-pink .icon i {
+  color: #ff689b;
+}
+
+.services .icon-box-pink:hover {
+  border-color: #ff689b;
+}
+
+.services .icon-box-cyan .icon {
+  background: #e6fdfc;
+}
+
+.services .icon-box-cyan .icon i {
+  color: #3fcdc7;
+}
+
+.services .icon-box-cyan:hover {
+  border-color: #3fcdc7;
+}
+
+.services .icon-box-green .icon {
+  background: #eafde7;
+}
+
+.services .icon-box-green .icon i {
+  color: #41cf2e;
+}
+
+.services .icon-box-green:hover {
+  border-color: #41cf2e;
+}
+
+.services .icon-box-blue .icon {
+  background: #e1eeff;
+}
+
+.services .icon-box-blue .icon i {
+  color: #2282ff;
+}
+
+.services .icon-box-blue:hover {
+  border-color: #2282ff;
+}
+
+.services .box-content{
+  text-align: left;
+}
   
-  /*<!=======FOOTER=======>*/
-  .pie-pagina{
-    width: 100%;
-    background-color: #0d2033;
-    /* background-color: #FFF; */
-  }
-  .pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap:50px;
-    padding: 45px 0px;
-  }
-  .pie-pagina .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .pie-pagina .grupo-1 .box figure img{
-    width: 250px;
-  }
-  .pie-pagina .grupo-1 .box h2{
-    color: #FFF;
-    margin-bottom: 25px;
-    font-size: 20px;
-  }
-  .pie-pagina .grupo-1 .box p{
-    color: #FFF;
-    margin-bottom: 10px;
-  }
-  .pie-pagina .grupo-1 .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: #0a1a2a;
-    margin-right: 10px;
-    background-color: #FFF;
-    text-align: center;
-    transition: all 300ms ease;
-    border-radius: 5px;
-  }
+/*<!=======FOOTER=======>*/
+.pie-pagina{
+  width: 100%;
+  background-color: #0d2033;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #FFF;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+  color: #FFF;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #0a1a2a;
+  margin-right: 10px;
+  background-color: #FFF;
+  text-align: center;
+  transition: all 300ms ease;
+  border-radius: 5px;
+}
   
-  .pie-pagina .grupo-1 .red-social a:hover{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
-  .pie-pagina .grupo-2{
-    background-color: #0a1a2a;
-    padding: 15px 10px;
-    text-align: center;
-    color: #fff;
-  }
-  .pie-pagina .grupo-2 small{
-    font-size: 15px;
-  }
+.pie-pagina .grupo-1 .red-social a:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pie-pagina .grupo-2{
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
   
-  .footer-links{
-      margin-left: -40px;
-    list-style: none;
-  }
+.footer-links{
+  margin-left: -40px;
+  list-style: none;
+}
   
-  .footer-links li{
-    padding: 5px 0;
-    display: block;
-  }
+.footer-links li{
+  padding: 5px 0;
+  display: block;
+}
   
-  .footer-links a{
-    color: #FFF;
-    text-decoration: none;
-  }
+.footer-links a{
+  color: #FFF;
+  text-decoration: none;
+}
   
-  @media screen and (max-width:800px){
+@media screen and (max-width: 800px){
   .pie-pagina .grupo-1{
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap:30px;
     padding: 35px 0px;
   }
-  }
+}
   
-  .btn-wsp{
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    bottom: 30px;
-    right: 30px;
-    background: #0DF053;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-    z-index: 100;
-  }
+.btn-wsp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #0DF053;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+}
   
-  .btn-wsp:hover{
-    text-decoration: none;
-    color: #0DF053;
-    background: #FFF;
+.btn-wsp:hover{
+  text-decoration: none;
+  color: #0DF053;
+  background: #FFF;
+}
+
+/*Inicio del css del loader */
+.loading-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  color: #191654;
+}
+
+#svg {
+  height: 150px;
+  width: 150px;
+  stroke: white;
+  fill-opacity: 0;
+  stroke-width: 3px;
+  stroke-dasharray: 4500;
+  animation: draw 8s ease;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 4500;
   }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.name-container {
+  height: 30px;
+  overflow: hidden;
+}
+
+.logo-name {
+  color: #fff;
+  font-size: 90%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+/*fin del css del loader */

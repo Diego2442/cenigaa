@@ -356,30 +356,42 @@
 
 .carousel-item {
     /* height: 100vh; */
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .carousel-caption {
-    bottom: 270px;
-  }
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
   
-  .carousel-caption h5 {
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-  }
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
   
-  .carousel-caption p {
-    width: 75%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.9;
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.fade-in-text{
+  animation: an 1s ease-out 1 both;
+}
+
+@keyframes an {
+  from{
+    opacity: 0;
+    transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
   }
+  to{
+    opacity: 1;
+    transform: perspective(500px) translate3d(0,0,0);
+  }
+}
 
 /*<!======About Us======!>*/
 .grid{

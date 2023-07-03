@@ -355,6 +355,10 @@
 }
 
 /**/
+.m-5{
+  margin: 4rem !important;
+}
+
 .contactButton{
   left: 50%;
   top: 100%;
@@ -436,6 +440,7 @@
 }
 
 .footer-links{
+  margin-left: -40px;
   list-style: none;
 }
 

@@ -368,7 +368,19 @@
 }
 
 .cardBg{
-  background-color: #EFEFEF;
+  background-color: #593B02;
+}
+
+.cardBg-1{
+  background-color: #A4D955;
+}
+
+.cardBg-2{
+  background-color: #05C7F2;
+}
+
+.cardBg-3{
+  background-color: #7E7E7E;
 }
 
 .cardDarkBg{

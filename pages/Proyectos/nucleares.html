@@ -89,8 +89,8 @@
       </div>
     </header>
 
-    <section class="home" id="home">
-        <div class="home-text container">
+    <section class="home_proyecto" id="home">
+        <div class="home-text container border-bottom border-5 border-warning p-3 ">
             <h2 class="home-title">Actividades Nucleares - Cenigaa</h2>
             <span class="home-subtitle">texto predeterminado</span>
         </div>
@@ -98,10 +98,10 @@
 
     <div class="post-filter container">
         <span class="filter-item active-filter" data-filter="all">Todo</span>
-        <span class="filter-item" data-filter="energia">Energía</span>
-        <span class="filter-item" data-filter="agricultura">Agricultura</span>
-        <span class="filter-item" data-filter="ambiente">Ambiente</span>
-        <span class="filter-item" data-filter="computacional">Computacional</span>
+        <span class="filter-item" data-filter="energia">Energía <i class="fa-solid fa-solar-panel"></i></span>
+        <span class="filter-item" data-filter="agricultura">Agricultura <i class="fa-solid fa-tractor"></i></span>
+        <span class="filter-item" data-filter="ambiente">Ambiente <i class="fa-solid fa-leaf"></i></span>
+        <span class="filter-item" data-filter="computacional">Computacional <i class="fa-solid fa-network-wired"></i></span>
     
     </div>
     
@@ -110,7 +110,7 @@
       <div class="post-box energia">
         <img src="../../assets/img/cacaoHuila.jpg" alt="" class="post-img">
         <!-- <h2 class="category">Tech</h2> -->
-        <a href="#" class="post-title">Proyecto Interinstitucional de Movilidad</a>
+        <a href="#" class="post-title">Proyecto de Movilidad</a>
         <span class="post-date">06 sep 2011</span>
         <p class="post-description"></p>
         <!-- Button trigger modal -->
@@ -123,34 +123,53 @@
             <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
                 </div>
                 <div class="modal-body">
-                    <div2 id="carouselExampleControlsNoTouching-0" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                    <div id="carouselExampleControlsNoTouching-0" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="../assets/img/rendicionCuentas.jpg" class="img-fluid rounded" alt="...">
+                            <img src="../../assets/img/rendicionCuentas.jpg" class="img-fluid rounded" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="../assets/img/rendicionCuentas2.jpg" class="img-fluid rounded" alt="...">
+                            <img src="../../assets/img/rendicionCuentas2.jpg" class="img-fluid rounded" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="../assets/img/rendicionCuentas3.jpg" class="img-fluid rounded" alt="...">
+                            <img src="../../assets/img/rendicionCuentas3.jpg" class="img-fluid rounded" alt="...">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching-0" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                          
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching-0" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                          
                         </button>
-                      </div2>
-                    <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">Proyecto Interinstitucional de Movilidad</h3>
-                    <p class="text-justify mt-3">
-                      Convenio Específico de Cooperación Interinstitucional entre la Universidad Surcolombiana y La Fundación Centro de Investigación en Ciencias y Recursos GeoAgroAmbientales "CENIGAA", y cuyo objeto fue “CENIGAA apoyara el desarrollo del convenio de colaboración DHS No 5209910 suscrito entre la UNIVERSIDAD SURCOLOMBIANA y ECOPETROL S.A., en el área de servicios técnicos movilidad”, del 07 de marzo de 1011 al 06 de septiembre de 2011.
-                    </p>
+                      </div>
+                    <h3 class="modal-title fs-5 mt-3 text-center" id="staticBackdropLabel">Proyecto de Movilidad</h3>
+                    <span class="post-date">06 sep 2011</span>
+                    <div class="text-left mt-2">
+
+                        <div>   
+                        <p>Descripción: <br>
+                          Apoyo en el área de servicios técnicos de movilidad en el convenio de colaboración DHS No 5209910 suscrito entre la UNIVERSIDAD SURCOLOMBIANA y ECOPETROL S.A..</p>
+                        </div>
+                        <div>
+                          <p>Participantes: <br> <strong>Universidad Surcolombiana - Cenigaa</strong></p>
+                        </div>
+                        <div>
+                          <p>Campos que aborda: <br>
+                            <strong>Energía <i class="fa-solid fa-solar-panel"></i> </strong> </p>
+                        </div>
+                        <div>
+                          <p>Tipo Asociación: <br>
+                            <strong>Convenio</strong></p>
+                        </div>
+                      
+                    </div>
                 </div>
             </div>
             </div>
@@ -161,7 +180,7 @@
         <img src="../../assets/img/encuentroRobotica.jpg" alt="" class="post-img">
         <!-- <h2 class="category">Tech</h2> -->
         <a href="#" class="post-title">Mantenimiento Técnico del Cultivo de Cacao</a>
-        <span class="post-date">15 May 2011 - 15 Nov 2011</span>
+        <span class="post-date">15 May 2011 - 16 Nov 2011</span>
         <p class="post-description"></p>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-light mt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop-2">
@@ -173,33 +192,53 @@
             <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
                 </div>
                 <div class="modal-body">
                     <div2 id="carouselExampleControlsNoTouching-1" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="../assets/img/encuentroRobotica.jpg" class="img-fluid rounded" alt="...">
+                            <img src="../../assets/img/encuentroRobotica.jpg" class="img-fluid rounded" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="../assets/img/encuentroRobotica3.jpg" class="img-fluid rounded" alt="...">
+                            <img src="../../assets/img/encuentroRobotica3.jpg" class="img-fluid rounded" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="../assets/img/encuentroRobotica2.jpg" class="img-fluid rounded" alt="...">
+                            <img src="../../assets/img/encuentroRobotica2.jpg" class="img-fluid rounded" alt="...">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching-1" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                          
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching-1" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                          
                         </button>
                       </div2>
-                    <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">Mantenimiento Técnico del Cultivo de Cacao</h3>
-                    <p class="text-justify mt-3">
-                      Contrato No. 088 de 2011 suscrito entre la Gobernación del Huila y CENIGAA, cuyo objeto fue “Realizar transferencia tecnológica y de conocimiento en técnicas de rehabilitación de plantaciones de cacao (injertación lateral) y metodologías de captación de fruto para la identificación de la calidad regional, como estrategia para el impulso del sector hacia una producción y comercialización” del 15 de mayo de 2011 al 16 de noviembre de 2011.
+                      <h3 class="modal-title fs-5 mt-3 text-center" id="staticBackdropLabel">Mantenimiento Técnico del Cultivo de Cacao</h3>
+                      <span class="post-date">15 May 2011 - 16 Nov 2011</span>
+                      <div class="text-left mt-2">
+  
+                          <div>   
+                          <p>Descripción: <br>
+                            Transferencia tecnológica y de conocimiento en técnicas de rehabilitación de plantaciones de cacao(injertación lateral) y metodologías de captación de fruto para la identificación de la calidad regional, como estrategia para el impulso del sector hacia una producción y comercialización</p>
+                          </div>
+                          <div>
+                            <p>Participantes: <br> <strong>Gobernación del Huila - Cenigaa</strong></p>
+                          </div>
+                          <div>
+                            <p>Campos que aborda: <br>
+                              <strong>Energía <i class="fa-solid fa-solar-panel"></i> </strong> </p>
+                          </div>
+                          <div>
+                            <p>Tipo Asociación: <br>
+                              <strong>Contrato</strong></p>
+                          </div>
+                        
+                      </div>
                     </p>
                 </div>
             </div>
@@ -210,7 +249,7 @@
       <div class="post-box agricultura">
         <img src="../../assets/img/cacaoProject.jpg" alt="" class="post-img">
         <!-- <h2 class="category">Tech</h2> -->
-        <a href="#" class="post-title">Caracterización de los Índices de Calidad de Aguas de Producción</a>
+        <a href="#" class="post-title">Caracterización en Aguas de Producción</a>
         <span class="post-date">13 Abr 2012 - 12 Sep 2012</span>
         <p class="post-description"></p>
         <!-- Button trigger modal -->
@@ -223,7 +262,9 @@
             <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
                 </div>
                 <div class="modal-body">
                   <div id="carouselExampleControlsNoTouching-2" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -240,17 +281,34 @@
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching-2" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
+                      
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching-2" data-bs-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
+                      
                     </button>
                   </div>
-                    <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">Caracterización de los Índices de Calidad de Aguas de Producción</h3>
-                    <p class="text-justify mt-3">
-                      Convenio Específico de Cooperación Interinstitucional para el Desarrollo de Ciencia y Tecnología entre la Universidad Surcolombiana y La Fundación Centro de Investigación en Ciencias y Recursos GeoAgroAmbientales "CENIGAA" y cuyo objeto fue “ CENIGAA apoyara a la  Universidad en el desarrollo del convenio  de Colaboración No 5211465 suscrito entre LA UNIVERSIDAD SURCOLOMBIANA y ECOPETROL S.A ., en la aplicación  de herramientas tecnológicas de mayor valor en la caracterización  compleja de aguas de producción de la SOP”, del 13 de abril de 2012 al 12 de septiembre de 2012.
-                    </p>
+                  <h3 class="modal-title fs-5 mt-3 text-center" id="staticBackdropLabel">Caracterización en Aguas de Producción</h3>
+                  <span class="post-date">13 Abr 2012 - 12 Sep 2012</span>
+                  <div class="text-left mt-2">
+
+                      <div>   
+                      <p>Descripción: <br>
+                        Apoyar en la caracterización compleja de aguas de producción de la SOP en el marco del desarrollo del convenio N. 5211465 suscrito entre la universidad surcolombiana y Ecopetrol</p>
+                      </div>
+                      <div>
+                        <p>Participantes: <br> <strong>Universidad Surcolombiana - Cenigaa</strong></p>
+                      </div>
+                      <div>
+                        <p>Campos que aborda: <br>
+                          <strong>Energía <i class="fa-solid fa-solar-panel"></i> </strong> </p>
+                      </div>
+                      <div>
+                        <p>Tipo Asociación: <br>
+                          <strong>Convenio</strong></p>
+                      </div>
+                    
+                  </div>
                 </div>
             </div>
             </div>
@@ -273,7 +331,9 @@
             <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
                 </div>
                 <div class="modal-body">
                     <div2 id="carouselExampleControlsNoTouching-3" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -290,17 +350,34 @@
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching-3" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                          
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching-3" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                          
                         </button>
                       </div2>
-                    <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">Desarrollo de Ciencia y Tecnología</h3>
-                    <p class="text-justify mt-3">
-                      Convenio específico de cooperación interinstitucional para el desarrollo de ciencia y tecnología entre la universidad Surcolombiana y CENIGAA, y cuyo objeto fue “CENIGAA apoyara a la universidad en el desarrollo del Convenio de colaboración No. 5211532 suscrito entre la universidad Surcolombiana y ECOPETROL SA en el componente de los servicios de ciencia y tecnología” del 02 de noviembre de 2012 al 01 de marzo de 2014.
-                    </p>
+                      <h3 class="modal-title fs-5 mt-3 text-center" id="staticBackdropLabel">Desarrollo de Ciencia y Tecnología</h3>
+                      <span class="post-date">02 Nov 2012 - 01 Mar 2014</span>
+                      <div class="text-left mt-2">
+    
+                          <div>   
+                          <p>Descripción: <br>
+                           Desarrollo de ciencia y tecnología en el cumplimiento del convenio N. 5211532 suscrito entre la universidad surcolombiana y Ecopetrol</p>
+                          </div>
+                          <div>
+                            <p>Participantes: <br> <strong>Universidad Surcolombiana - Cenigaa</strong></p>
+                          </div>
+                          <div>
+                            <p>Campos que aborda: <br>
+                              <strong>Energía <i class="fa-solid fa-solar-panel"></i> </strong> </p>
+                          </div>
+                          <div>
+                            <p>Tipo Asociación: <br>
+                              <strong>Convenio</strong></p>
+                          </div>
+                        
+                      </div>
                 </div>
             </div>
             </div>
@@ -310,7 +387,7 @@
       <div class="post-box agricultura">
         <img src="../../assets/img/foroRegionalAndino.jpg" alt="" class="post-img">
         <!-- <h2 class="category">Tech</h2> -->
-        <a href="#" class="post-title">Evaluación y Esquematización de Sistemas de Riego para el Eficiente Uso del Recurso Hídrico</a>
+        <a href="#" class="post-title">Evaluación y Esquematización de Sistemas de Riego</a>
         <span class="post-date">14 Jun 2013 - 31 Dic 2013</span>
         <p class="post-description"></p>
         <!-- Button trigger modal -->
@@ -323,7 +400,9 @@
             <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
                 </div>
                 <div class="modal-body">
                     <div id="carouselExampleControlsNoTouching-4" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -333,10 +412,27 @@
                           </div>
                         </div>
                       </div>
-                    <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">Evaluación y Esquematización de Sistemas de Riego para el Eficiente Uso del Recurso Hídrico</h3>
-                    <p class="text-justify mt-3">
-                      Contrato No. CE-13158-209-05 Contrato de Cooperación técnica y científica celebrado entre CENIRED Y CENIGAA y cuyo objeto fue “Evaluación de sistemas de riego en el cultivo de cacao bajo el esquema de manejo eficiente del recurso hídrico para el apoyo de la estrategia de aumento de la producción en el departamento del Huila”, del 14 de junio de 2013 al 31 de diciembre de 2013.
-                    </p>
+                      <h3 class="modal-title fs-5 mt-3 text-center" id="staticBackdropLabel">Evaluación y Esquematización de Sistemas de Riego</h3>
+                      <span class="post-date">14 Jun 2013 - 31 Dic 2013</span>
+                      <div class="text-left mt-2">
+    
+                          <div>   
+                          <p>Descripción: <br>
+                            Evaluación de sistemas de riego en el cultivo de cacao bajo el esquema de manejo eficiente del recurso hídrico para el apoyo de la estrategia de aumento de la producción en el departamento del Huila</p>
+                          </div>
+                          <div>
+                            <p>Participantes: <br> <strong>Cenired - Cenigaa</strong></p>
+                          </div>
+                          <div>
+                            <p>Campos que aborda: <br>
+                              <strong>Energía <i class="fa-solid fa-solar-panel"></i> </strong> </p>
+                          </div>
+                          <div>
+                            <p>Tipo Asociación: <br>
+                              <strong>Contrato</strong></p>
+                          </div>
+                        
+                      </div>
                 </div>
             </div>
             </div>
@@ -359,7 +455,9 @@
             <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
                 </div>
                 <div class="modal-body">
                     <div id="carouselExampleControlsNoTouching-5" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -376,15 +474,34 @@
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching-5" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                          
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching-5" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                          
                         </button>
                       </div>
-                    <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">Water resources planning through climate change capacity building</h3>
-                    <p class="text-justify mt-3">Convenio de colaboración interinstitucional suscrito entre STOCKHOLM ENVIROMENT INSTITUTE (SEI) Y CENIGAA, y cuyo objeto fue “Realizar conjuntamente proyectos y actividades de investigación, científicas y académicas y técnicas. Aunar esfuerzos humano, técnicos, logísticos y económicos para ejecutar el proyecto " Water resources planning through climate change capacity building . Ríos del páramo al valle por urbes y campiñas” del 18 de julio de 2013 al 17 de enero de 2015.</p>
+                      <h3 class="modal-title fs-5 mt-3 text-center" id="staticBackdropLabel">Water resources planning through climate change capacity building</h3>
+                      <span class="post-date">18 Jul 2013 - 17 Ene 2015</span>
+                      <div class="text-left mt-2">
+    
+                          <div>   
+                          <p>Descripción: <br>
+                            Realizar conjuntamente proyectos y actividades de investigación, científicas y académicas y técnicas. Aunar esfuerzos humano, técnicos, logísticos y económicos para ejecutar el proyecto " Water resources planning through climate change capacity building . Ríos del páramo al valle por urbes y campiñas</p>
+                          </div>
+                          <div>
+                            <p>Participantes: <br> <strong>STOCKHOLM ENVIROMENT INSTITUTE (SEI)  - Cenigaa</strong></p>
+                          </div>
+                          <div>
+                            <p>Campos que aborda: <br>
+                              <strong>Energía <i class="fa-solid fa-solar-panel"></i> </strong> </p>
+                          </div>
+                          <div>
+                            <p>Tipo Asociación: <br>
+                              <strong>Convenio</strong></p>
+                          </div>
+                        
+                      </div>
                 </div>
             </div>
             </div>
@@ -407,7 +524,9 @@
             <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
                 </div>
                 <div class="modal-body">
                     <div2 id="carouselExampleControlsNoTouching-6" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -424,17 +543,34 @@
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching-6" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                          
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching-6" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                          
                         </button>
                       </div2>
-                    <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">Investigación y Educación Ambiental la tribuna</h3>
-                    <p class="text-justify mt-3">
-                      Convenio de Colaboración DHS No. 5220059 suscrito entre ECOPETROL y CENIGAA y cuyo objeto fue “Anuar esfuerzos para el manejo integral del área de investigación y educación ambiental la tribuna, municipio de Neiva, departamento del Huila”, del 05 de diciembre de 2014 al 04 de diciembre de 2015.
-                    </p>
+                      <h3 class="modal-title fs-5 mt-3 text-center" id="staticBackdropLabel">Investigación y Educación Ambiental la tribuna</h3>
+                      <span class="post-date">05 Dic 2014 - 04 Dic 2015</span>
+                      <div class="text-left mt-2">
+    
+                          <div>   
+                          <p>Descripción: <br>
+                            Manejo integral del área de investigación y educación ambiental la tribuna, municipio de Neiva, departamento del Huila </p>
+                          </div>
+                          <div>
+                            <p>Participantes: <br> <strong>Ecopetrol - Cenigaa</strong></p>
+                          </div>
+                          <div>
+                            <p>Campos que aborda: <br>
+                              <strong>Energía <i class="fa-solid fa-solar-panel"></i> </strong> </p>
+                          </div>
+                          <div>
+                            <p>Tipo Asociación: <br>
+                              <strong>Convenio</strong></p>
+                          </div>
+                        
+                      </div>
                 </div>
             </div>
             </div>
@@ -457,7 +593,9 @@
             <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
                 </div>
                 <div class="modal-body">
                     <div2 id="carouselExampleControlsNoTouching-7" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -474,17 +612,34 @@
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching-7" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                          
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching-7" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                          
                         </button>
                       </div2>
-                    <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">Gestión para la Innovación Tecnológica del Componente GeoAgroAmbiental</h3>
-                    <p class="text-justify mt-3">
-                      •	Convenio Especial de Cooperación No. 324 suscrito entre el Departamento del Huila y CENIGAA del 2013, y cuyo objeto fue “Aunar recursos, capacidades y competencias interinstitucionales para la ejecución del proyecto "Mejoramiento de las capacidades de gestión para la innovación tecnológica del componente GeoAgroAmbientales del Huila” del 18 de marzo de 2014 al 17 marzo 2015.
-                    </p>
+                      <h3 class="modal-title fs-5 mt-3 text-center" id="staticBackdropLabel">Gestión para la Innovación Tecnológica del Componente GeoAgroAmbiental</h3>
+                      <span class="post-date">18 Mar 2014 - 17 Mar 2015</span>
+                      <div class="text-left mt-2">
+    
+                          <div>   
+                          <p>Descripción: <br>
+                            Mejoramiento de las capacidades de gestión para la innovación tecnológica del componente GeoAgroAmbientales del Huila</p>
+                          </div>
+                          <div>
+                            <p>Participantes: <br> <strong>Departamento del Huila - Cenigaa</strong></p>
+                          </div>
+                          <div>
+                            <p>Campos que aborda: <br>
+                              <strong>Energía <i class="fa-solid fa-solar-panel"></i> </strong> </p>
+                          </div>
+                          <div>
+                            <p>Tipo Asociación: <br>
+                              <strong>Convenio</strong></p>
+                          </div>
+                        
+                      </div>
                 </div>
             </div>
             </div>
@@ -494,7 +649,7 @@
       <div class="post-box computacional">
         <img src="../../assets/img/cienciaYterritorio.jpg" alt="" class="post-img">
         <!-- <h2 class="category">Tech</h2> -->
-        <a href="#" class="post-title">Análisis para la Mitigación de Impactos ante CC y VCE en el Sectro Agropecuario</a>
+        <a href="#" class="post-title">Adaptación al sector agropecuario ante impactos de CC y VCE</a>
         <span class="post-date">03 Ago 2015 - 02 Ago 2018</span>
         <p class="post-description"></p>
         <!-- Button trigger modal -->
@@ -507,7 +662,9 @@
             <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
                 </div>
                 <div class="modal-body">
                     <div2 id="carouselExampleControlsNoTouching-8" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -521,71 +678,40 @@
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching-8" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                          
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching-8" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                          
                         </button>
                       </div2>
-                    <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">Análisis para la Mitigación de Impactos ante CC y VCE en el Sectro Agropecuario</h3>
-                    <p class="text-justify mt-3">
-                      Convenio especial de cooperación para el desarrollo de actividades de ciencia tecnología e innovación No. 124 suscrito entre el Departamento del Huila y CENIGAA, cuyo objeto fue “ Aunar recursos, capacidades y competencias interinstitucionales para la ejecución del proyecto "Análisis de la vulnerabilidad y desarrollo de implementación de medidas participativas de adaptación al sector agropecuario ante impactos de cambio climático y de la vulnerabilidad climática extrema (CC y VCE) en el Departamento del Huila” del 03 de agosto de 2015 al 02 de agosto de 2018.
-                    </p>
+                      <h3 class="modal-title fs-5 mt-3 text-center" id="staticBackdropLabel">Adaptación al sector agropecuario ante impactos de CC y VCE</h3>
+                      <span class="post-date">03 Ago 2015 - 02 Ago 2018</span>
+                      <div class="text-left mt-2">
+    
+                          <div>   
+                          <p>Descripción: <br>
+                            Análisis de la vulnerabilidad y desarrollo de implementación de medidas participativas de adaptación al sector agropecuario ante impactos de cambio climático y de la vulnerabilidad climática extrema  (CC y VCE) en el Departamento del Huila </p>
+                          </div>
+                          <div>
+                            <p>Participantes: <br> <strong>Departamento del Huila - Cenigaa</strong></p>
+                          </div>
+                          <div>
+                            <p>Campos que aborda: <br>
+                              <strong>Energía <i class="fa-solid fa-solar-panel"></i> </strong> </p>
+                          </div>
+                          <div>
+                            <p>Tipo Asociación: <br>
+                              <strong>Convenio</strong></p>
+                          </div>
+                        
+                      </div>
                 </div>
             </div>
             </div>
         </div>
       </div>
       <!-- Post 10 -->
-      <div class="post-box computacional">
-        <img src="../../assets/svg/HuilaFest.svg" alt="" class="post-img">
-        <!-- <h2 class="category">Tech</h2> -->
-        <a href="#" class="post-title">Proyecto Técnico de Maiz</a>
-        <span class="post-date"></span>
-        <p class="post-description"></p>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-light mt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop-10">
-            Ver Más
-        </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop-10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div2 id="carouselExampleControlsNoTouching-9" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="../../assets/img/HuilaFest.jpg" class="img-fluid rounded" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="../../assets/img/HuilaFest2.jpg" class="img-fluid rounded" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="../../assets/img/HuilaFest3.jpg" class="img-fluid rounded" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching-9" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching-9" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div2>
-                    <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">Proyecto Técnico de Maiz</h3>
-                    <p class="text-justify mt-3"></p>
-                </div>
-            </div>
-            </div>
-        </div>
-      </div>
-      <!-- Post 11 -->
       <div class="post-box ambiente agricultura">
             <img src="../../assets/img/primeroCongreso.jpeg" alt="" class="post-img">
             <!-- <h2 class="category">Tech</h2> -->
@@ -603,7 +729,9 @@
                 <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                      <i class="fa-solid fa-xmark"></i>
+                    </button>
                     </div>
                     <div class="modal-body">
                         <div id="carouselExampleControlsNoTouching-10" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -620,11 +748,11 @@
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching-10" data-bs-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
+                              
                             </button>
                             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching-10" data-bs-slide="next">
                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
+                              
                             </button>
                           </div>
                         <h3 class="modal-title fs-5 mt-3 text-justify" id="staticBackdropLabel">AGROSAVIA-CENIGAA

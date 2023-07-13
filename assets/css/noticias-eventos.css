@@ -732,6 +732,18 @@ a{
     }
 }
 
+.carousel-control-next{
+  width: 5%;
+  height: 5%;
+  margin-top: 50%;
+}
+
+.carousel-control-prev{
+  width: 5%;
+  height: 5%;
+  margin-top: 50%;
+}
+
 /*<!======Whatsapp Button======!>*/
 .btn-wsp{
   position: fixed;
